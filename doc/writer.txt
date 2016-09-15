@@ -1,0 +1,29 @@
+*writer.txt*  Opionated writing settings for Vim                       *writer*
+
+==============================================================================
+ 1.- COMMANDS                                               *writer-commands*
+
+                                                *:Writer*
+<leader>wr              Toggles writer on and off in fullscreen mode
+
+                                                *:WriterInit*
+<leader>we              Loads writer and isolates text in fullscreen.
+
+                                                *:WriterClose*
+<leader>wc              Closes writer and reapplies your defaults.
+
+                                                *:WriterWrap*
+<leader>wp              Toggles between hard wrap at 80 characters and soft 
+                        wrap.
+
+                                                *:WriterPreview*
+<leader>wp              For Markdown only. Generates an HTML preview.
+
+
+All commands can be remapped like:
+
+    map <c-R> :WriterToggle<CR>                                              ~
+
+vim:tw=78:et:ft=help:norl:
+
+
